@@ -48,8 +48,8 @@ jobs:
 
     - name: Deploy to GitHub Pages
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "alu.136052@usj.es"
+        git config --global user.name "SantiagoSarsaGracia"
         git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         npm run deploy
       env:
