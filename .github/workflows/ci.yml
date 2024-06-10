@@ -28,7 +28,7 @@ jobs:
       run: npx jest
 
     - name: Lint JavaScript files
-      run: npx eslint . --ext .js
+      run: npx eslint .
 
   deploy:
     runs-on: ubuntu-latest
