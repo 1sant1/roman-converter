@@ -264,3 +264,4 @@ if (!String.prototype.repeat) {
     return rpt;
   };
 }
+module.exports = { convertRomanToInteger, convertIntegerToRoman };
